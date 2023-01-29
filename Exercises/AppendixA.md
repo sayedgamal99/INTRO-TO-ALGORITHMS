@@ -31,7 +31,7 @@
         and the $$\sum_{k=0}^{∞} x^k  =  {1  \ \over (1-x) }$$ for |x| < 1\
         and the $$\sum_{k=0}^{∞} kx^k  =  {x  \ \over (1-x)^2 }$$ \ for |x| < 1
         then we treat x as 1/2 get : \
-        $${(1/2)  \ \over (1-(1/2))^2 } -  {1  \ \over (1-(1/2)) } = 2-2 =$$
+        $${(1/2)  \ \over (1-(1/2))^2 } -  {1  \ \over (1-(1/2)) } = 2-2 =0$$
         
 
 
