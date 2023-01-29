@@ -26,12 +26,16 @@
       $$\sum_{k=0}^{∞} k^2 x^k  =  {x(1*(1-x)^2 + x(2(1-x)))  \ \over (1-x)^4 }$$
      $$= {x(1+x)  \ \over (1-x)^3 }$$
 
-   - A1-4:
-     - show that $$\sum_{k=0}^∞ (k-1)/2^k = 0$$
-       we can rewrite it as:\
-       $$\sum_{k=0}^∞ k{1\ \over 2^k} - \sum_{k=0}^∞ {1\ \over 2^k}$$
-       $$\sum_{k=0}^∞ k({1\ \over 2})^k - \sum_{k=0}^∞ ({1\ \over 2})^k$$
-       and the $$\sum_{k=0}^{∞} x^k  =  {1  \ \over (1-x) }$$ for |x| < 1\
-       and the $$\sum_{k=0}^{∞} kx^k  =  {x  \ \over (1-x)^2 }$$ \ for |x| < 1
-       then we treat x as 1/2 get : \
-       $${(1/2)  \ \over (1-(1/2))^2 } -  {1  \ \over (1-(1/2)) } = 2-2 =0$$
+    - A1-4:
+        
+        - show that $$\sum_{k=0}^∞ (k-1)/2^k = 0$$
+        we can rewrite it as:\
+        $$\sum_{k=0}^∞ k{1\ \over 2^k} - \sum_{k=0}^∞ {1\ \over 2^k}$$
+        $$\sum_{k=0}^∞ k({1\ \over 2})^k - \sum_{k=0}^∞ ({1\ \over 2})^k$$
+        and the $$\sum_{k=0}^{∞} x^k  =  {1  \ \over (1-x) }$$ for |x| < 1\
+        and the $$\sum_{k=0}^{∞} kx^k  =  {x  \ \over (1-x)^2 }$$ \ for |x| < 1
+        then we treat x as 1/2 get : \
+        $${(1/2)  \ \over (1-(1/2))^2 } -  {1  \ \over (1-(1/2)) } = 2-2 =$$
+        
+
+
