@@ -56,7 +56,7 @@ $$100X^2 - 2^X = 0$$
     size n of a problem that can be solved in time t, assuming that the algorithm to 
     solve the problem takes f .n/ microseconds.
 
-![The Full Table](.\Images\ch1.png)
+![The Full Table](Images\ch1.png)
 ---
 ---
 ---
