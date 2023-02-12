@@ -6,7 +6,7 @@
     Express the function ${n^3\over1000 }-100n^2-100n+3$ in terms of ‚ theta - notation.
 
     
-    - we can rewrite it as :${1\over1000}*n^3 - 100n ^2 - 100n +3$ reduced to $\theta(n^3)$\.
+    - we can rewrite it as :${1\over1000}*n^3-100n^2-100n+3$ reduced to $\theta(n^3)$\.
 
 ---
 - 2.2-2\
