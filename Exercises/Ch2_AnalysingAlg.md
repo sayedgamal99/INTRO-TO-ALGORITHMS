@@ -8,7 +8,7 @@
     
     - we can rewrite it as :
     ${1\over1000}*n^3 - 100 * n ^2 - 100*n +3$
-    \
+
     reduced to $\theta(n^3)$\.
 
 ---
