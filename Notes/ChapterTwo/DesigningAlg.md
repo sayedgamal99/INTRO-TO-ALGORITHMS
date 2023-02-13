@@ -25,11 +25,13 @@ call themselves recursively one or more times to deal with closely related subpr
 Merge(A,p,q,r):
     n1 = q-r+1
     n2 = r -q
-    L[n1],R[n2]
+    L[n1+1],R[n2+1]
     for i = 1 to n1:
         L[i] = A[p+i-1]
     for j=1 to n2:
         R[j] = A[q+j]
+    L[n1+1] = inf
+    R[n2+1] = inf
     i = 1
     j = 1
     for k = 1 to r:
