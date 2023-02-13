@@ -50,6 +50,8 @@ Merge(A,p,q,r):
 - Example from above procedure:
     - A[p..q] containing $\lceil {n\over2} \rceil$ elements
      and the A[q+1..r] containing $\lfloor{n\over2} \rfloor$ elements.
+    
+---
 
 
 
