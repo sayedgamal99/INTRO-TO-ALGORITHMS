@@ -43,7 +43,7 @@
 - 2-3
      
      Write pseudocode for linear search, which scans through the sequence, looking
-    for v. Using a loop invariant, prove that your algorithm is 
+    for v.
             
     ```
     linear_s(A,v):
