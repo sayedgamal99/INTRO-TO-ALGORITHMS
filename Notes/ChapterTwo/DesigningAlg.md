@@ -44,13 +44,13 @@ Merge(A,p,q,r):
 ```
 ---
 
-### Note:
+### Notes:
 >To avoid examning the four cases that arise depending on whether than each of p and r is odd and even we use Ceil and Floor.
 
 - Example from above procedure:
     - A[p..q] containing $\lceil {n\over2} \rceil$ elements
      and the A[q+1..r] containing $\lfloor{n\over2} \rfloor$ elements.
-    
+>Merge-Sorting take time $\theta(nlgn)$ 
 ---
 
 
