@@ -38,9 +38,9 @@ $$\max(g(n),f(n)) = \Theta(g(n)+f(n))$$
 
 $$2^{n+1} = O(2^n)? \ \ \  2^{2n}= O(2^n)?$$
 
-    The First one is True.
+The First one is True.
 $$2^{n} \times 2 =O(2^n)$$
-    The Second is not True.
+The Second is not True.
 $$2^{n} \times 2^{n} \neq O(2^n)$$
     
 ---
@@ -53,7 +53,7 @@ $\lim_{n=inf} {f(g)\over g(n)} = 0$\
 and we seen that $\omega$(g(n)) is $\color{lightgreen}lower bound$
 to g(n) excluded cg(n)=$\omega$((g(n))),\
 $\lim_{n=inf} {f(g)\over g(n)} = inf$\
-we can write above as:
+we can rewrite above as:
 $$C_1g(n) < f(n) <C_1g(n).$$
 which has no solution leeds to $\color{lightblue}Empty Set$
 then 
