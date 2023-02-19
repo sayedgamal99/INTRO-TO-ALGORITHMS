@@ -74,7 +74,7 @@ def LINSEA(A,V):
     return "Not Found"
 ```
 ---
-<font color = 'green'>*Implementation* :</font>
+$\color{green}Implementation:$
 
 [Check Code](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Code/BinarySearch.py)
 
