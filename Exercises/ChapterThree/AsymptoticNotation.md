@@ -50,14 +50,16 @@ $$2^{n} \times 2^{n} \neq O(2^n)$$
 since we seen that o(g(n)) is $\color{lightgreen}upper bound$
 to g(n) excluded cg(n)=o((g(n))),\
 $\lim_{n=inf} {f(g)\over g(n)} = 0$\
-and we seen that $\omega$(g(n)) is $\color{lightgreen}lower bound$
+and we seen that $\omega$(g(n)) is $\color{lightgreen}lower bound$\
 to g(n) excluded cg(n)=$\omega$((g(n))),\
 $\lim_{n=inf} {f(g)\over g(n)} = inf$\
-we can rewrite above as:
+we can write above as:
 $$C_1g(n) < f(n) <C_1g(n).$$
 which has no solution leeds to $\color{lightblue}Empty Set$
 then 
 $$o(g(n)) \bigcap \omega(g(n)) is\  \emptyset.$$
+
+
 ---
 
 - 3.8: give definitions for omega(n) and theta(n):
