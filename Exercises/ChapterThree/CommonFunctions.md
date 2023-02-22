@@ -32,13 +32,12 @@ Give both sides to be *Equal*.
 - 3.2-3: Prove:
 $$lg(n!) = \Theta(nlgn)$$
 using **Stirling’s approximation** and assume that $\Theta({1\over n})$ is small to be ignored in large values of n:
-$$
-lg(n!) \approx lg({\sqrt(2\pi n)}({n\over e})^n)\\
-     = lg({\sqrt(2\pi n)})+n\times lg(({n\over e}))\\
-     = lg({\sqrt(2\pi)})+0.5\times lg({n})+n\times lg({n})-nlg(e)\\
-     =\Theta(1)+\Theta(lgn)+\Theta(nlg)-\Theta(n)
-     =\Theta(nlgn)
-$$
+$$lg(n!) \approx lg({\sqrt(2\pi n)}({n\over e})^n)$$
+     $$= lg({\sqrt(2\pi n)})+n\times lg(({n\over e}))$$
+     $$= lg({\sqrt(2\pi)})+0.5\times lg({n})+n\times lg({n})-nlg(e)$$
+     $$=\Theta(1)+\Theta(lgn)+\Theta(nlg)-\Theta(n)$$
+     $$=\Theta(nlgn)$$
+     
 ---
 
 - 3.2-6:
@@ -49,7 +48,7 @@ $X^2 = X+1$
 finding the solution of Quad equation given by :
 ```
 $$X_{1,2} = {{-b\pm \sqrt {b^2 - 4\times a c}}\over 2a}$$
-by solving the equation above gives the $\color{lightgreen}Golden Ratio $ and it's cong.
+by solving the equation above gives the $\color{lightgreen}Golden Ratio$ and it's cong.
 
 ---
 
@@ -65,11 +64,17 @@ then by fi = fi-1 + fi-2 for each i > 1
 and using previous ex during our proof
 give:
 ```
-$${{\alpha^k - \alpha'^k}\over \sqrt 5}+{{{\alpha^{k-1} - \alpha'^{k-1}}\over \sqrt 5}}\\
-{{({\alpha^k +\alpha^{k-1}}) - ({\alpha'^k+\alpha'^{k-1}})}\over \sqrt 5}$$
+
+$${{\alpha^k - \alpha'^k}\over \sqrt 5}+{{{\alpha^{k-1} - \alpha'^{k-1}}\over \sqrt 5}}$$
+
+$${{({\alpha^k +\alpha^{k-1}}) - ({\alpha'^k+\alpha'^{k-1}})}\over \sqrt 5}$$
+
 $${{({\alpha^{k-1}})(\alpha +1 ) - ({\alpha'^{k-1}})}(\alpha'+1)\over \sqrt 5}$$
+
 $${{({\alpha^{k-1}})(\alpha^2 ) - ({\alpha'^{k-1}})}(\alpha'^2)\over \sqrt 5}$$
+
 $${{({\alpha^{k+1}}) - ({\alpha'^{k+1}})}\over \sqrt 5}$$
+
 
 ---
 
@@ -80,7 +85,6 @@ we will use symmetry property of notation to reach it quickly:
 ```
 $$k\times ln(k) = \theta(n)$$
 $$n = \theta(k\times ln k)\rarr (1)$$
-$$(1)$$
 $$ln(n) = \theta(ln(k\times ln k))\rarr (2)$$
 ```
 devide 1/2
