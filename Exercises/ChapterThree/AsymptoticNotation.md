@@ -18,7 +18,7 @@ $$\max(g(n),f(n)) = \Theta(g(n)+f(n))$$
 - 3.2:
 
     Show that for any real constants a and b, where b>0,\
-    $(n+a)^b = \Theta(n^b)$:\
+    $(n+a)^b = \Theta(n^b)$:
     
         - Left hand side produce b terms, and the highest order of them would be Constant*n^b.
         by reducing the terms to highest order and ignoring the constant it will be.
@@ -38,9 +38,9 @@ $$\max(g(n),f(n)) = \Theta(g(n)+f(n))$$
 
 $$2^{n+1} = O(2^n)? \ \ \  2^{2n}= O(2^n)?$$
 
-The First one is True.
+    The First one is True.
 $$2^{n} \times 2 =O(2^n)$$
-The Second is not True.
+    The Second is not True.
 $$2^{n} \times 2^{n} \neq O(2^n)$$
     
 ---
@@ -54,7 +54,8 @@ and we seen that $\omega$(g(n)) is $\color{lightgreen}lower bound$\
 to g(n) excluded cg(n)=$\omega$((g(n))),\
 $\lim_{n=inf} {f(g)\over g(n)} = inf$\
 we can write above as:
-$$C_1g(n) < f(n) <C_1g(n).$$
+$$C_1g(n)<{f(n)}<{C_1g(n)}$$
+
 which has no solution leeds to $\color{lightblue}Empty Set$
 then 
 $$o(g(n)) \bigcap \omega(g(n)) is\  \emptyset.$$
