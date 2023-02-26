@@ -30,9 +30,12 @@
     of an algorithm. For example, the best-case running time of insertion sort is $\Omega(n)$
     which implies that the running time of insertion sort is $\Omega(n)$ .
 
-- there also $o(n)$ Upper bound notation: 
-$$0\leq f(n)<cg(n)$$
+there also o(n) Upper bound notation: 
+
+$$0\leq f(n) < cg(n)$$
+
 which similer to *big oh* $O(n)$ as it's def as:
+
 $$0\leq f(n)\leq cg(n)$$
 
 -  in o-notation, the function f(n) becomes insignificant
@@ -72,9 +75,9 @@ $f(n) = \Omega(g(n))$ is just like $a\geq b$
 
 $f(n) = \Theta(g(n))$ is just like $a=b$
 
-$f(n) = o(g(n))$ is just like $a<b$
+$f(n) = o(g(n))$ is just like $a < b$
 
-$f(n) = w(g(n))$ is just like $a>b$
+$f(n) = w(g(n))$ is just like $a > b$
 
 
 
