@@ -11,7 +11,7 @@
 
 - 4.1-2:
     Write pseudocode for the brute-force method of solving the maximum-subarray
-    problem. Your procedure should run in ‚$\Theta(n^2)$ time
+    problem. Your procedure should run in, $\Theta(n^2)$ time
 
     ```
     Brute(A):
