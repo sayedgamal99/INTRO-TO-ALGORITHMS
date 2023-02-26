@@ -85,3 +85,45 @@ $f(n) = w(g(n))$ is just like $a>b$
 
 
 ![alt text](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/ch3.png?raw=true)
+
+
+---
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+#  Standard notations and common functions
+
+
+- for any integer n:
+
+$$\lceil{n/2}\rceil + \lfloor{n/2}\rfloor = n$$
+
+- The floor function f(x) $\lfloor{x}\rfloor$ is monotonically increasing, as is the ceiling function f(x) $\lceil{x}\rceil$.
+
+for any real number x>=0 and integers a,b>0,
+
+$$\lceil {\lceil{x/a}\rceil \over b} \rceil = \lceil {{x} \over ab} \rceil$$
+
+
+---
+
+$$a\ mod\ n = a - n\ \lfloor{a/n}\rfloor$$
+
+- Each Fibonacci number is the sum of the two previous ones, yielding the
+    sequence
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...
+
+$$F_i = {\alpha^i - \alpha'^i\over \sqrt 5}$$
+and $\alpha$ is the golden ratio and it's conjugate driven from eq:
+$$X^2 = X + 1$$
+
+---
