@@ -108,7 +108,7 @@ This is wondurful Linear approch!
 
 
 
-![alt text](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/leet1?raw=true)
+![alt text](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/Leet1.png?raw=true)
 
 
 <br/>
@@ -117,4 +117,4 @@ This is wondurful Linear approch!
 <br/>
 
 
-![alt text](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/codeforces1?raw=true)
+![alt text](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/codeforces1.png?raw=true)
