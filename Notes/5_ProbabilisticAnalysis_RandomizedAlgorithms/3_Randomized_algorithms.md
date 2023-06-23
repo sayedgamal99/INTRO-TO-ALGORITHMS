@@ -58,7 +58,7 @@ Permute-By-Sorting(A)
 Randomize-In-Place(A)
     n = A.length()
     for i = 1 to n:
-        swap A[i] with A[RANDOM(1,n)]
+        swap A[i] with A[RANDOM(i,n)]
 
 ```
 
