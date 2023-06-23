@@ -1,6 +1,6 @@
 # Chapter Five : Probabilistic Analysis and Randomized Algorithms
 
-## Part two : Indicator Random Varivable
+## Part two : Indicator Random Variable
 
 <br>
 
