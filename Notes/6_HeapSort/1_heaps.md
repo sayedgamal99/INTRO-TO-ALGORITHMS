@@ -14,8 +14,11 @@
 
 
 ## indexing:
-$$Parent(i) = \big\lfloor {i/2}\big\rfloor\\
-Left(i) = 2i \space \rightarrow \text{left child of (i)}\\
+
+
+$$
+Parent(i) = \big\lfloor {i/2}\big\rfloor \space | \space \newline
+Left(i) = 2i \space \rightarrow \text{left child of (i)} \space | \space \newline
 Right(i) = 2i+1 \space \rightarrow \text{right child of (i)}
 $$
 
