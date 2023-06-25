@@ -1,4 +1,4 @@
-# Chapter Five - Hiring Problem : Excercises:
+# Chapter Five - Hiring Problem : Exercises:
 
 ### 5.1-2 
 - Describe an implementation of the procedure RANDOM(a,b) that only makes calls to RANDOM(0,1).?
