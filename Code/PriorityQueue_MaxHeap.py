@@ -30,9 +30,10 @@ class Queue:
         self.heap_size += 1
         self.heap[self.heap_size - 1] = key
         i = self.heap_size-1
-        while (i > 0) and (self.heap[i] > self.heap[(i - 1) // 2]):
-            self.heap[i], self.heap[(i - 1) // 2] = self.heap[(i - 1) // 2], self.heap[i]
+        while (i > 0) and (key > self.heap[(i - 1) // 2]):
+            self.heap[i] = self.heap[(i-1)//2]
             i = (i - 1) // 2
+        self.heap[i] = key
 
 
 # =========================================================

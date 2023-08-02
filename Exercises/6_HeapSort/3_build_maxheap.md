@@ -27,7 +27,8 @@
 
 ### 6.3-2
 
-- Why do we want the loop index i in line 2 of BUILD-MAX-HEAP to decrease from n//2 to 1 rather than increase from 1 to n//2?
-  - up-bottom appraoch wouldn't satisfy heap property. Ex: A[2,1,1,3]
+#### Why do we want the loop index i in line 2 of BUILD-MAX-HEAP to decrease from n//2 to 1 rather than increase from 1 to n//2?
+  
+up-bottom appraoch wouldn't satisfy heap property. Ex: A[2,1,1,3]
 
 ---
