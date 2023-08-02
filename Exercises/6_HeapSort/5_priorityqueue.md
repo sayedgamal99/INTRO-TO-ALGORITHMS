@@ -5,7 +5,7 @@
 <br>
 
 
-[Check Implemetation Max Heap Priority Queue](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Code/PriorityQueue.py)
+[Check Implemetation Max Heap Priority Queue](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Code/PriorityQueue_MaxHeap.py)
 
 ### 6.5-1
 #### Illustrate the operation of HEAP-EXTRACT-MAX on the heap A [15, 13, 9, 5, 12, 8, 7, 4, 0, 6,2,1]
