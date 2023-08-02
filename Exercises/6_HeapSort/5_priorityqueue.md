@@ -199,7 +199,7 @@ Heap-Delete(A,i)
 
 ```
 
-- Running time is $\color{white}{O(lgn)}$.
+- Running time is $\color{green}{O(lgn)}$.
 
 
 
@@ -224,3 +224,4 @@ we do that for all n numbers making algorithm run in O(nlgk) time.
 ```
 
 
+---
