@@ -165,7 +165,7 @@ Heap-Increase-Key(A,i,key)
 <br>
 
 ### 6.5-7
-#### Show how to implement a first-in, first-out queue with a priority queue. Show how to implement a stack with a priority queue. (Queues and stacks are defined in Section 10.1.)
+#### Show how to implement a first-in, first-out queue with a priority queue. Show how to implement a stack with a priority queue.
 
 ```
 we can use some mapping to map the items pushed in and popped out and the 
