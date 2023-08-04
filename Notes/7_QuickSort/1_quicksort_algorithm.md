@@ -34,9 +34,12 @@ Partation(A,p,r)
 ```
 In brief, we try to sort the array A in place by swapping elements.
 
-The algorithm picks an element to use as the pivot element, such that all elements before it are less than its value, and all elements after it are higher than its value.
+The algorithm picks an element to use as the pivot element,
+such that all elements before it are less than its value, and all elements after it are higher than its value.
 
-Let x at position r be the pivot element. We segment the array A into 3 regions at the end: (elements less than x, pivot element, elements higher than x)
+Let x at position r be the pivot element.
+We segment the array A into 3 regions at the end:
+(elements less than x, pivot element, elements higher than x)
 
 As we try to segment the elements, we check for each value along the way, if it belongs to the lower-value group of numbers or the higher-value group. We do swapping all the way to reach the result, then (recursively) do that to get our sorted array.
 
@@ -45,7 +48,7 @@ As we try to segment the elements, we check for each value along the way, if it 
 <br>
 
 
-### Visualize it.
+### Visualize it:
 
 <p align ='center'>
     <img src='https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/QuickSort2.png?raw=true' alt="alt text">
@@ -53,7 +56,7 @@ As we try to segment the elements, we check for each value along the way, if it 
 
 
 
-### Example
+### Example:
 <p align ='center'>
     <img src='https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Exercises/Images/QuickSort1.png?raw=true' alt="alt text">
 </p>
