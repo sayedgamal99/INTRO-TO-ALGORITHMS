@@ -41,7 +41,10 @@ Let x at position r be the pivot element.
 We segment the array A into 3 regions at the end:
 (elements less than x, pivot element, elements higher than x)
 
-As we try to segment the elements, we check for each value along the way, if it belongs to the lower-value group of numbers or the higher-value group. We do swapping all the way to reach the result, then (recursively) do that to get our sorted array.
+As we try to segment the elements, we check for each value along the way,
+if it belongs to the lower-value group of numbers or the higher-value 
+group. We do swapping all the way to reach the result, then (recursively)
+do that to get our sorted array.
 
 ```
 
