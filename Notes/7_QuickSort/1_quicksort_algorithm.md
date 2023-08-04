@@ -9,13 +9,19 @@
 - A Divide and Conquer approach used.
 - Consumes no extra memory since sorting is $\color{steelblue}\text{in-place}$.
 
+### Implementation:
+
+[`Check Implementation`](https://github.com/sayedgamal99/INTRO-TO-ALGORITHMS/blob/main/Code/QuickSort.py)
+
+
 ### Quick Sort Algorithm
 
 ```py
 Quick-Sort(A,p,r)
-    q =  Partation(A,p,r)
-    Quick-Sort(A,p,q-1)
-    Quick-Sort(A,q+1,r)
+    if p<r
+        q =  Partation(A,p,r)
+        Quick-Sort(A,p,q-1)
+        Quick-Sort(A,q+1,r)
 ```
 
 ```py
